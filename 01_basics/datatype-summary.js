@@ -29,3 +29,27 @@ const myfunction=function(){
 
 // non primitive ka datatype function hi hota hai but function ka objectfunction hota hai 
 // nulll ka datatype object aata hai
+
+
+
+///**************STACK AND HEAP MEMORY ********************/
+//stack(primitive),heap(non-primitive)
+//from stack we get copy value which cannot change original value if changes are made
+// from heap we get orignal value which means if we change value then original value will get change
+
+
+let myname ="Neha"
+let sisname ="Harshita"
+sisname =myname;
+console.log(myname)
+console.log(sisname)
+
+
+let userone={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let usertwo = userone
+usertwo.email ="neha@gmail.com"
+console.log(userone)
+console.log(usertwo)
