@@ -40,7 +40,7 @@ const myfunction=function(){
 
 let myname ="Neha"
 let sisname ="Harshita"
-sisname =myname;
+myname = sisname ;
 console.log(myname)
 console.log(sisname)
 
